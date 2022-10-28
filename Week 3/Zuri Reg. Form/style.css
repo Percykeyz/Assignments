@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(26,9,121);
+background: radial-gradient(circle, rgba(26,9,121,1) 0%, rgba(255,255,255,1) 70%);
+padding: 10px;
+}
+
+.container{
+    max-width: 700px;
+    width: 100%;
+    padding: 25px 30px;
+    border-radius: 25px;
+    background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 40%, rgba(26,9,121,1) 100%);
+min-height: 350px;
+}
+
+.container .title {
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    text-align: center;
+    padding-bottom: 20px;
+     
+}
+
+.container .title::before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background: rgb(26,9,121);
+background: linear-gradient(90deg, rgba(26,9,121,1) 0%, rgba(255,255,255,1) 70%);
+    bottom: 0;
+    left: 0;
+}
+
+
+
+.card {
+    min-height: 350px;
+    width: 100%;
+    margin: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: top;
+ 
+
+}
+
+.inputbox input {
+    min-height: 40px;
+    width: 280px;
+    font-weight: 300;
+    padding: 13px 12px 13px;
+    color: rgba(o, 0, 0, 10);
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px black solid;
+    margin-top: 0px;
+}
+
+#color {
+    padding: 0;
+}
+
+.inputbox label {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 5px 0;
+    color: black;
+    width: 90%;
+    display: block;
+    margin-bottom: 5px;
+   
+}
+
+.gender label {
+    font-size: 15px;
+  font-weight: 400;
+  width: 95%;
+  padding:10px auto;
+  align-items: baseline;
+  display: block;
+}
+
+.gender select {
+    font-size: 15px;
+    cursor: pointer;
+    width: 273px;
+}
+.gender {
+    display: block;
+    margin: 20px;
+    width: 30%;
+}
+
+.submit {
+    margin-top: 40px;
+}
+
+.submit input {
+        display: block;
+        width: 50%;
+        margin-top: 10px;
+        font-size: 20px;
+        padding: 10px;
+        border: none;
+        border-radius: 7px;
+        background-color: #5b1ded;
+        color: white;
+        margin: auto;
+        transition: 0.5s;
+        letter-spacing: 2px;
+}
+
+.submit input:hover{
+    background-color: #160343;
+    cursor: pointer;
+}

@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h3 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(26,9,121,1) 0%, rgba(255,255,255,1) 35%);
+    min-height: 100vh;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    min-height: 450px;
+    flex-direction: column;
+    width: 350px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 16px 16px 32px #c8c8c8,
+    -16px -16px 32px #fefefe;
+    gap: 35px;
+}
+
+
+
+.inputbox {
+    min-height: 40px;
+    width: 280px;
+    font-weight: 300;
+    padding: 14px 12px 14px;
+    color: rgba(o, 0, 0, 10);
+}
+
+.remember-me{
+    margin-right: 150px;
+    margin-top: 0px;
+}
+.button {
+    height: 40px;
+    width: 100%;
+    max-width: 100px;
+    border-radius: 5px;
+    border: 2px solid black;
+    cursor: pointer;
+    background-color: transparent;
+    transition: 0.5s;
+    letter-spacing: 2px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: black;
+    
+}
+
+.button:hover{
+    background-color: #c8c8c8;
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+    margin-top: 0px;
+    color: rgba(0, 0, 0, 9);
+}
